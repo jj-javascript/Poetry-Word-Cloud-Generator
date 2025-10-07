@@ -2,3 +2,37 @@
     box-sizing: border-box;
     background-color:honeydew;
 }
+
+h1{
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 30%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+p{
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Cormorant SC", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+

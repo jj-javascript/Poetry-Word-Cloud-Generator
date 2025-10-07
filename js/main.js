@@ -17,7 +17,7 @@ function getPoem () {
     .then(res => res.json())
     .then(data => {
         console.log(data)
-            document.querySelector('p').innerHTML += `<div>${data[0].lines}<img></div>`
+            document.querySelector('p').innerHTML += `<div><img>${data[0].lines}</div>`
             getCloud(data[0].lines)
 }
 
